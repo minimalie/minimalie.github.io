@@ -37,4 +37,10 @@
     </div>
   </footer>
 </body>
+<script>
+  var isMobile = window.matchMedia("only screen and (max-width: 768px)").matches;
+  if (isMobile) {
+    window.location.href = "mobile.html";
+  }
+</script>
 </html>
