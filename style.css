@@ -27,3 +27,32 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
+.text-center {
+  text-align: center;
+}
+
+.mt-5 {
+  margin-top: 50px;
+}
+
+.btn {
+  background-color: #000000;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #000000;
+}
+
+.btn-secondary {
+  background-color: #ffffff;
+}
+
+.btn-lg {
+  width: 100%;
+}
